@@ -12,7 +12,7 @@ contract LiftToken is ERC20Votes {
         _mint(msg.sender, _initialSupply);
     }
 
-/* The functions below are overrides required by Solidity. */
+/* As funções abaixo são substituições exigidas pelo Solidity. */
     function _afterTokenTransfer(
         address from,
         address to,
