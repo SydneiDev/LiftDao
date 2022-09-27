@@ -23,13 +23,13 @@ contract LiftGovernance is
     uint256 public votingPeriod_;
 
     constructor(
-        ERC20Votes _token,
+        ERC20Votes _LifToken,
         TimelockController _timelock,
         uint256 _quorum,
         uint256 _votingDelay,
         uint256 _votingPeriod
     )
-        Governor("Defi University DAO")
+        Governor(" LiftDAO")
         GovernorVotes(_token)
         GovernorVotesQuorumFraction(_quorum)
         GovernorTimelockControl(_timelock)
